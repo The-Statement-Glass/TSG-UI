@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components"
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
@@ -37,7 +38,7 @@ const Wrapper = styled.div`
 height:100%;
 display: flex;
 transition: all 1.5s ease;
-transform :translateX(${props => props.slideIndex * -100}vw);
+transform :translateX((${props=> props.slideIndex * -100}vw));
 `;
 
 const Slide = styled.div`
@@ -69,7 +70,7 @@ cursor:pointer;
 `;
 
 const Image = styled.img`
-height:80%
+height:80%;
 `;
 
 const InfoContainer = styled.div`
@@ -97,7 +98,7 @@ const Slider = ()=> {
         <ArrowLeftIcon />
       </Arrow>
       <Wrapper SlideIndex={slideIndex}>
-        {Slideritems.map((item)=>(
+        {Slideritems.map((item)=>
         <Slide bg={item.bg}>
         <ImgContainer>
           <Image src= {item.img}/> 
@@ -108,7 +109,7 @@ const Slider = ()=> {
           <Button>SHOW NOW</Button>
         </InfoContainer>
         </Slide>
-        ))} 
+        )};
       </Wrapper>
       <Arrow direction="right" onClick={()=>handleClick("right")}>
         <ArrowRightIcon/>
