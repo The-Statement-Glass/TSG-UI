@@ -22,5 +22,42 @@
     title:"WINTER COLLECTION",
     desc:"DON'T COMPROMISE ON STYLE!  GET FLAT 50% OFF FOR NEW ARRIVALS.",
     bg:"f5fafd",
-}
-]
+},
+];
+
+export const categories = [
+
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+        title:"SHIRT STYLE!",
+    },
+    {
+        id:2,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+        title:"LOUNGEWEAR STYLE!",
+    },
+    {
+        id:3,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+        title:"LIGHT JACKETS"
+    },
+
+];
+
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+
+
+    },
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+    },
+    {
+        id:1,
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFD1vfUJj07LzZVI9lBS74xwQ30VOU_g0Bg&usqp=CAU",
+    }
+];
