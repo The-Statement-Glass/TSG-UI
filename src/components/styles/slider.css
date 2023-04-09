@@ -1,0 +1,15 @@
+.Slider {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .slider img {
+    transition: transform 0.5s ease-out;
+  }
+  
+  .slider img:hover {
+    transform: scale(1.2);
+  }
+  
