@@ -51,14 +51,19 @@ const MenuItem = styled.div`
   font-size: 20px;
   font-weight: 900;
   cursor: pointer;
-  margin-left: 30px;
-  margin-right: 310px;
+  white-space: nowrap;
+  margin-left: 190px;
+  // margin-right: 2px;
   a {
     color: black;
     text-decoration: none;
   }
   a:visited {
     color: black;
+  }
+  transition: background-color 0.3s ease-in-out;
+  &:hover {
+    background-color: #FFD700;
   }
 `;
 
@@ -67,18 +72,26 @@ const Navbar = () => {
     <div>
       <Container>
         <Wrapper>
+          <div className="-mr-78">
           <MenuItem>
             <Link to="/">HOME</Link>
           </MenuItem>
-          <MenuItem>
+          </div>
+          <div className="-mr-78">
+          <MenuItem className="ml-99">
             <Link to="/our-inspiration">OUR INSPIRATION</Link>
           </MenuItem>
-          <MenuItem>
+          </div>
+          <div className="-mr-78">
+          <MenuItem className="ml-99">
             <Link to="/collections">COLLECTION</Link>
           </MenuItem>
-          <MenuItem>
+          </div>
+          <div className="-mr-78">
+          <MenuItem className="ml-99">
             <Link to="/get-in-touch">GET IN TOUCH</Link>
           </MenuItem>
+          </div>
         </Wrapper>
       </Container>
     </div>

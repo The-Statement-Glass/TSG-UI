@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Center = styled.div`
   padding-top: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.99);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,34 +12,34 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  color: gold;
-  margin: auto 0;
-  // text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px gold, 0 0 70px gold, 0 0 80px gold, 0 0 100px gold, 0 0 150px gold;
-  // animation: shine 2s infinite;
-
-  // @keyframes shine {
-  //   0% {
-  //     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px gold, 0 0 70px gold, 0 0 80px gold, 0 0 100px gold, 0 0 150px gold;
-  //   }
-  //   50% {
-  //     text-shadow: none;
-  //   }
-  //   100% {
-  //     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px gold, 0 0 70px gold, 0 0 80px gold, 0 0 100px gold, 0 0 150px gold;
-  //   }
-  // }
+  color: transparent;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRgBaqjHijEf8C9AkJXp5k0kfEFsRm0RdpQ&usqp=CAU');
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-style: bold;
+  background-clip: text;
+  word-spacing: 8px;
 `;
 
+//https://e1.pxfuel.com/desktop-wallpaper/939/27/desktop-wallpaper-iphone-gold-glitter-resolution-gold-sparkle.jpg
 const SmallText = styled.small`
   font-size: 0.6em;
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/939/27/desktop-wallpaper-iphone-gold-glitter-resolution-gold-sparkle.jpg');
+  background-size: cover;
+  -webkit-background-clip: text;
+  word-spacing: 1px;
+`;
+
+const DotText = styled.small`
+  font-size: 2em;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmfiFzg2a6N-RXphF2r2b2DMoFFAqanzSJ1w&usqp=CAU');
+  // background-size: cover;
+  -webkit-background-clip: text;
 `;
 
 const StyledLink = styled(Link)`
   color: yellow;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
 `;
 
 export const Announcement = () => {
@@ -47,9 +47,9 @@ export const Announcement = () => {
     <Center>
       <StyledLink to="/">
         <Logo>
-          THE STATEMENT GLASS
+          𝒯𝐻𝐸 𝒮𝒯𝒜𝒯𝐸𝑀𝐸𝒩𝒯 𝒢𝐿𝒜𝒮𝒮
           <center>
-            <SmallText>Iconic. Classic. Timeless.</SmallText>
+            <SmallText>Iconic <DotText>.</DotText> Classic <DotText>.</DotText> Timeless</SmallText>
           </center>
         </Logo>
       </StyledLink>

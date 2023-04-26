@@ -7,7 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71NVldu2JoL._SL1500_.jpg');
   background-size: cover;
-  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
   position: relative;
 }
@@ -27,3 +28,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

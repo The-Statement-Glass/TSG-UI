@@ -5,6 +5,7 @@ import Slider from '../components/Slider'
 import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
 import Categories  from '../components/Categories'
 import OurInspiraton from '../components/OurInspiraton';
+import Footer from '../components/Footer';
 import Collection from '../components/Collection';
 import GetInTouch from '../components/GetInTouch';
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <Route path="/get-in-touch" element={<GetInTouch />}/>
     </Routes>
     </BrowserRouter>
+    <Footer/>
     </div>
   )
 }
