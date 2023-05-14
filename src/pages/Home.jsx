@@ -21,7 +21,6 @@ const Home = () => {
         <Route path="/get-in-touch" element={<GetInTouch />}/>
     </Routes>
     </BrowserRouter>
-    <Footer/>
     </div>
   )
 }

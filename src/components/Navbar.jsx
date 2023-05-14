@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const Container = styled.div`
-  height: 97px;
+  height: 39px;
 `;
 
 const Wrapper = styled.div`
